@@ -5,14 +5,6 @@ Saya Muhammad Rian Anugrah NIM 2507241 mengerjakan Tugas Praktikum 7 pada Mata K
 
 Sistem berbasis PHP sederhana untuk mengelola data turnamen game online, data tim peserta, dan jadwal serta hasil pertandingan esports.
 
-# Fitur Utama
-
-Sistem ini menyediakan fungsionalitas CRUD (Create, Read, Update, Delete) lengkap untuk tiga entitas utama:
-
-* **Turnamen (Tournaments):** Mengelola data kompetisi/turnamen (nama turnamen, judul game seperti *Mobile Legends*, *Valorant*, *Dota 2*, dan tanggal mulai pelaksanaan).
-* **Tim (Teams):** Mengelola data tim peserta turnamen (nama tim, kapten tim, dan kontak/email manajemen).
-* **Pertandingan (Matches):** Mengelola jadwal pertandingan antar tim dalam turnamen, mencakup turnamen terkait, tim 1 (home), tim 2 (away), skor tim 1, skor tim 2, tanggal & jam pertandingan, dan status (`Scheduled`, `Finished`).
-
 # Struktur Proyek
 
 Proyek ini menggunakan arsitektur MVC (Model-View-Controller) yang sederhana, di mana file Class bertindak sebagai Model (logika database), file PHP di folder `view/` bertindak sebagai View (tampilan), dan file `index.php` bertindak sebagai Controller utama untuk mengatur navigasi dan routing halaman.
@@ -52,6 +44,14 @@ TP7DPBO2526C2/
 ├── db_tournament.sql
 └── README.md
 ```
+
+# Fitur Utama
+
+Sistem ini menyediakan fungsionalitas CRUD (Create, Read, Update, Delete) lengkap untuk tiga entitas utama:
+
+* **Turnamen (Tournaments):** Mengelola data kompetisi/turnamen (nama turnamen, judul game seperti *Mobile Legends*, *Valorant*, *Dota 2*, dan tanggal mulai pelaksanaan).
+* **Tim (Teams):** Mengelola data tim peserta turnamen (nama tim, kapten tim, dan kontak/email manajemen).
+* **Pertandingan (Matches):** Mengelola jadwal pertandingan antar tim dalam turnamen, mencakup turnamen terkait, tim 1 (home), tim 2 (away), skor tim 1, skor tim 2, tanggal & jam pertandingan, dan status (`Scheduled`, `Finished`).
 
 # Diagram
 <img src="Dokumentasi/Diagram.png" style="width: 100%;">
