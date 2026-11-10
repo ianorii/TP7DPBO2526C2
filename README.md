@@ -25,28 +25,20 @@ TP7DPBO2526C2/
 ├── Tournament/
 │   ├── class/
 │   │   ├── Tournament.php
-│   │   │   ├── getTournament()
-│   │   │   ├── getById([ID])
-│   │   │   ├── addTournament([Name, GameTitle, StartDate])
-│   │   │   ├── updateTournament([ID, Name, GameTitle, StartDate])
-│   │   │   └── deleteTournament([ID])
-│   │   │
 │   │   ├── Team.php
-│   │   │   ├── getTeam()
-│   │   │   ├── getById([ID])
-│   │   │   ├── addTeam([TeamName, CaptainName, Contact])
-│   │   │   ├── updateTeam([ID, TeamName, CaptainName, Contact])
-│   │   │   └── deleteTeam([ID])
-│   │   │
 │   │   └── Match.php
-│   │       ├── getMatch()
-│   │       ├── getById([ID])
-│   │       ├── addMatch([TournamentID, HomeTeamID, AwayTeamID, HomeScore, AwayScore, MatchDate, Status])
-│   │       ├── updateMatch([ID, TournamentID, HomeTeamID, AwayTeamID, HomeScore, AwayScore, MatchDate, Status])
-│   │       └── deleteMatch([ID])
 │   │
 │   ├── config/
 │   │   └── db.php
+│   │
+│   ├── view/
+│   │   ├── tournaments.php
+│   │   ├── teams.php
+│   │   └── matches.php
+│   │
+│   ├── dummy_data.sql
+│   ├── index.php
+│   └── style.css
 │   │
 │   ├── view/
 │   │   ├── tournaments.php
