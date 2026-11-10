@@ -75,3 +75,4 @@ TP7DPBO2526C2/
    - Digunakan oleh constructor pada setiap class model untuk mengeksekusi prepared statements dengan aman.
 
 # Dokumentasi
+https://github.com/user-attachments/assets/d51001b5-90a9-48db-9265-7c9bfad8b1d5
